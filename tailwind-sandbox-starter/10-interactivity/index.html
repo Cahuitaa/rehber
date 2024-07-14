@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+     <button class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-white">
+      Üstüne gel
+     </button>
+
+    <!-- Focus State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-white">
+      Basınca kalan
+     </button>
+
+
+    <!-- Active State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-red-500 active:text-white">
+      Basılı tutunca
+     </button>
+
+    <!-- Styling based on parent state -->
+     <a href="" 
+        class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+        <h3 class="group-hover:text-white">Kart Başlığı</h3>
+        <p class="group-hover:text-white">Düz hover ekleyince, sadece o elementin üstüne gelince hoverlanır. Ancak group-hover yazarsak, parent element in üstüne gelince de hoverlanır.</p>
+      </a>
+
+    <!-- Pseudo Classes -->
+     <ul>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 1</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 2</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 3</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 4</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 5</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 6</li>
+     </ul>
+
+    <!-- Appearance -->
+
+
+
+    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+     <p>Tarayıcı özelindeki seçkileri sıfırlamak için appearance-none class'ı kullan. Bu custom form yapmaya yarar. </p>
+     <select class="appearance-none">
+      <option value="yes">Evet</option>
+      <option value="no">Hayır</option>
+     </select>
+
+     <br>
+    <!-- Cursor -->
+     <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-crosshair">
+      cursor-crosshair
+     </button>
+
+     <p class="cursor-pointer">cursor-pointer</p>
+      <br>
+    <!-- Resize -->
+
+    <!-- User Select -->
+     <div class="select-none">.select-none bu yazı seçilemez</div>
+     <div class="select-text">select-text metin seçilebilir.</div>
+     <div class="select-all">select-all Sadece bütün yazıyı seçebilirsin.</div>
+     <div class="select-auto">select-auto saptanmış olan.</div>
+
+     <a href="#item" class="block my-6">Aşağıya in</a>
+
+    <!-- Smooth Scroll Example -->
+
+    <!-- <html lang="en" class="scroll-smooth">  html in içine bunu ekliyoruz ve js yazmadan halloluyor. -->
+
+
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non et est at reprehenderit rerum amet, fugiat voluptas itaque cumque placeat unde possimus inventore odio voluptatem! Hic, laudantium quibusdam voluptatem, nostrum doloribus laborum sed ut recusandae molestias facilis cupiditate illo, beatae iure blanditiis iusto voluptas praesentium optio ducimus. Saepe nesciunt obcaecati dignissimos praesentium repellat similique, ea possimus quidem ducimus architecto autem distinctio, repellendus esse suscipit aliquid impedit libero fugiat, quaerat consectetur necessitatibus quo officia? Quas nulla perspiciatis adipisci expedita et doloremque distinctio totam laboriosam tenetur fuga esse eos, reprehenderit sunt odio odit ipsam soluta? Doloremque illum rem necessitatibus quis ab qui error id nihil tempore ut animi doloribus quo, pariatur praesentium ducimus eligendi cupiditate maiores ex cumque, temporibus exercitationem tempora tenetur! Ut assumenda ipsa illo, nihil dolorum numquam necessitatibus, laboriosam corporis dicta, adipisci unde architecto sunt distinctio quo nemo aut temporibus? Sit doloremque et cupiditate! Molestias voluptates, libero, maiores, commodi doloribus nostrum illo earum ipsam obcaecati pariatur vero! Ab reiciendis aliquid deleniti magnam veritatis placeat quod est enim amet, id sit illum? Corrupti dolores, animi quos, et praesentium dicta non commodi iusto repudiandae, similique ex tempore doloremque odit. Vitae error inventore labore accusantium voluptatem, tempora dolorum quae cupiditate veniam facilis porro, quos aspernatur nulla ratione, quaerat id culpa maiores repellat quia dignissimos voluptate perspiciatis hic? Minus, ullam vero officiis, nulla quod natus ratione ex doloribus illo quam, dolor iste nostrum? Placeat, harum. Numquam ut voluptates accusamus tenetur consequatur voluptas, tempore nemo quis reprehenderit quibusdam tempora dolor libero ipsa perspiciatis, optio, veniam enim delectus. Harum consequuntur recusandae unde hic iure error et iste fuga accusantium veniam quos maiores possimus, perferendis officia nostrum. Reiciendis molestias corrupti eum magnam ea aliquam, ratione consequatur id saepe sed similique eos esse. Nisi dignissimos quisquam velit obcaecati laborum impedit labore facere molestias dolor totam sapiente corrupti quam ipsam delectus a, qui culpa maiores. Perferendis ut atque, rem assumenda necessitatibus quaerat consequatur quo obcaecati possimus, quia, consequuntur eaque deserunt vitae iure harum laborum magni sequi veniam et amet reiciendis. Sint impedit, iusto doloremque deserunt minus at molestias! Maiores distinctio vitae soluta provident molestias deserunt minima sapiente animi excepturi dicta aliquid assumenda tenetur consectetur, minus non magnam eligendi molestiae officia alias amet repudiandae. Dicta deleniti culpa nostrum eius deserunt delectus alias assumenda facere, iure aliquam tempore quibusdam beatae architecto, vitae doloremque itaque tempora inventore harum veniam pariatur eos atque dolorem accusamus. Temporibus aperiam quis perferendis obcaecati. Minima, nesciunt fugit?</p>
+     <div id="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi quia ipsam provident! Voluptas, ab incidunt? Neque id iusto nobis! A voluptas cupiditate eveniet id beatae debitis animi sed provident, ipsam magnam tempora, dignissimos, nihil nulla. Tempore iure aspernatur numquam distinctio sequi neque! Vel officia, eos voluptatibus ex nobis corrupti?</div>
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
